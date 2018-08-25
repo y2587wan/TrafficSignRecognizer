@@ -1,0 +1,52 @@
+# =============== #
+# Unity folders #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+3rdParty/
+Builds/
+LeapMotion/
+Models/
+QCAR/
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.png
+*.vs
+# ===================================== #
+# Unity generated #
+# ===================================== #
+*.pidb.meta
+sysinfo.txt
+*.txt
+*.xml
+*.jpg
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.meta
+Sprite
+Package
+UnityPackageManager
+Plugins
+Resources
+Vuforia
