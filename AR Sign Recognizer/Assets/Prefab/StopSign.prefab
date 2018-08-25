@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 4992582624528750}
   - component: {fileID: 23264557442265818}
   - component: {fileID: 114608350986156610}
+  - component: {fileID: 114778972467126304}
   - component: {fileID: 114987863230443810}
   - component: {fileID: 33009923156081634}
   - component: {fileID: 114573852600253140}
@@ -557,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9951b174ffc74f640911673813ec7021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  robot: {fileID: 1370554999048720}
+  targetObject: {fileID: 1370554999048720}
   cameraAR: {fileID: 0}
 --- !u!114 &114573852600253140
 MonoBehaviour:
@@ -609,6 +610,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 407726b4f5a360d4aa6504f690f1aa4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114778972467126304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192779617894690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da26f74e1ed7e364cb817d0d4d15206c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
 --- !u!114 &114978384131287636
 MonoBehaviour:
   m_ObjectHideFlags: 1
