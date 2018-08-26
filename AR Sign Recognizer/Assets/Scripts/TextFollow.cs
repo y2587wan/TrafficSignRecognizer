@@ -19,13 +19,16 @@ public class TextFollow : MonoBehaviour {
 
         rt = GetComponent<RectTransform>();
         canvasRT = GetComponentInParent<Canvas>().GetComponent<RectTransform>();
-        targetObjectScreenPos = cameraAR.WorldToViewportPoint(targetObject.transform.TransformPoint(targetObjectPos));
-        rt.anchorMax = targetObjectScreenPos;
-        rt.anchorMin = targetObjectScreenPos;
+        ReloadLocation();
     }
 
     // Update is called once per frame
     void Update()
+    {
+        ReloadLocation();
+    }
+
+    private void ReloadLocation()
     {
         targetObjectScreenPos = cameraAR.WorldToViewportPoint(targetObject.transform.TransformPoint(targetObjectPos));
         rt.anchorMax = targetObjectScreenPos;
